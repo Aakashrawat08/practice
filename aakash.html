@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript prblems assignment</title>
+    <script>
+         //solution first
+ for(i=100;i>0;i--) {
+      if(i%2==0){
+          console.log(i);
+      }
+  }
+//solution second  
+function longest_country_name(country_name) {
+    return country_name.reduce((a,b)=>a.length>b.length?a:b)
+}
+console.log(longest_country_name(['india','germany','united states of america']))
+
+// solution 3
+  function reversenumber(n){
+     return n.toString().split("").reverse("").join("")
+  }
+  console.log(reversenumber(12345890665 ))
+   
+  //soliution 4
+  function isprimenumber(n){
+        for(var i=2;i<n;i++){
+            if(n%i===0)return false}
+        return n>1
+    }
+        console.log(isprimenumber(10 ))
+      
+    </script>
+</head>
+<body>
+    <h1>javascript problems assignment</h1>
+</body>
+</html>
